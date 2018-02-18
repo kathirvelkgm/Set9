@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int res,i,a,b;
+	scanf("%d%d",&a,&b);
+	for(i=1;i<10;i++)
+	if (a%i==0 && b%i==0)
+	res=i;
+	printf("%d",res);
+ return 0;
+}
